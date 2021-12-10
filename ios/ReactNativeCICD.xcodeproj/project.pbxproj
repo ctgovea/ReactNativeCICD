@@ -483,6 +483,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = REDACTED;
 				ENABLE_BITCODE = NO;
@@ -496,8 +498,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.awesome-company.reactnativecicd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomecompany.reactnativecicd;
 				PRODUCT_NAME = ReactNativeCICD;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.awesomecompany.reactnativecicd";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -510,6 +513,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = REDACTED;
 				INFOPLIST_FILE = ReactNativeCICD/Info.plist;
@@ -522,8 +527,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.awesome-company.reactnativecicd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.awesomecompany.reactnativecicd;
 				PRODUCT_NAME = ReactNativeCICD;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.awesomecompany.reactnativecicd";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
