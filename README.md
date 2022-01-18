@@ -1,2 +1,2 @@
-# ReactNativeCICD
-Build a ReactNative app and deploy to Testflight using Fastlane and CircleCI
+# Deploy to TestFlight using Fastlane and CircleCI
+Build and deploy a React Native app to Testflight using Fastlane and CircleCI.
